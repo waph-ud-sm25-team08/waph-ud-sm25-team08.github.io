@@ -1,1 +1,61 @@
-kunal
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WAPH Team - Kunal & Akanksha</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #1e3a8a, #0f172a);
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  </style>
+</head>
+<body class="text-white font-sans antialiased">
+
+  <!-- Hero -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">WAPH Team Project</h1>
+    <p class="text-lg md:text-xl text-gray-300 mb-6">University of Dayton | Summer 2025</p>
+    <a href="#team" class="bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition">Meet the Team</a>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="py-20 px-6">
+    <h2 class="text-3xl font-semibold text-center mb-12">Our Team</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+
+      <!-- Member 1 -->
+      <div class="glass-card rounded-xl p-8 flex flex-col items-center text-center hover:shadow-xl transition transform hover:-translate-y-2">
+        <img src="images/headshot.jpg" alt="Kunal's Headshot" class="w-32 h-32 rounded-full border-4 border-yellow-400 object-cover mb-4" />
+        <h3 class="text-2xl font-semibold">Kunal Kethamaranahalli Sathish</h3>
+        <p class="text-sm text-gray-300 mt-1">kethamaranahallisak1@udayton.edu</p>
+        <a href="https://kethamaranahallisak1.github.io/" target="_blank" class="mt-4 inline-block bg-yellow-400 text-black px-5 py-2 rounded-full hover:bg-yellow-300 transition">Personal Homepage</a>
+      </div>
+
+      <!-- Member 2 -->
+      <div class="glass-card rounded-xl p-8 flex flex-col items-center text-center hover:shadow-xl transition transform hover:-translate-y-2">
+        <img src="images/" alt="Akanksha's Headshot" class="w-32 h-32 rounded-full border-4 border-yellow-400 object-cover mb-4" />
+        <h3 class="text-2xl font-semibold">Akanksha Guntaka</h3>
+        <p class="text-sm text-gray-300 mt-1">guntakaa2@udayton.edu</p>
+        <a href="https://guntakaa2.github.io/" target="_blank" class="mt-4 inline-block bg-yellow-400 text-black px-5 py-2 rounded-full hover:bg-yellow-300 transition">Personal Homepage</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-300 py-8 border-t border-gray-600">
+    <p>&copy; 2025 Team Kunal & Akanksha | Web Application Programming & Hacking</p>
+    <p class="mt-1">University of Dayton</p>
+  </footer>
+
+</body>
+</html>
